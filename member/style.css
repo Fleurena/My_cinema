@@ -1,0 +1,143 @@
+body{
+	background: linear-gradient(90deg, #0B0020 40%, #004C6D);
+}
+
+nav{
+	margin: 0 auto;
+	width: 1280px;
+	height: 100px;
+}
+
+#logo{
+	width: 60%;
+}
+
+.search{
+	margin-top: 30px;
+}
+
+.recherches{
+	width: 104px;
+	height: 35px;
+}
+
+#recherche{
+	height: 35px;
+	width: 298px;
+}
+
+.container_nav{
+	width: 188px;
+	margin-left: -32px;
+	height: 130px;
+	position: fixed;
+	border-left: 1px solid white;
+}
+
+.container_nav ul{
+	list-style-type: none;
+}
+
+.container_nav a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.container_nav a:hover{
+	background-color: #004C6D;
+	color: white;
+}
+/* BOX OFFICE */
+
+.container_body{
+	margin: 0 auto;
+	width: 1280px;
+	height: 500px;
+}
+h1{
+	text-align: center;
+	font-family: arial, sans-serif;
+	padding-top: 18px;
+	color: #00AEEA;
+	text-transform: uppercase;
+}
+
+h2{
+	text-align: center;
+	margin-top: 79px;
+	color: #00AEEA;
+	font-family: arial, sans-serif;
+}
+
+/* RECHERCHES */
+
+.container_formulaire{
+	width: 978px;
+	height: auto;
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.3) 0 4px 2px;
+}
+
+.formulaire{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+p{
+	font-family: sans-serif;
+	padding-bottom: 40px;
+}
+
+.nom{
+	margin-left: 93px;
+}
+
+.prenom{
+	margin-left: 72px;
+}
+
+.motdepasse{
+	margin-left: 33px;
+}
+
+.motdepasse2{
+	margin-left: 35px;
+}
+
+.email{
+	margin-left: 30px;
+}
+
+.form_members{
+	margin-top: 61px;
+}
+
+.form_members input{
+	width: 250px;
+}
+
+.envoyer{
+	margin-left: 146px;
+	border: none;
+	background-color: #00AEEA;
+	color: white;
+	box-shadow: rgba(0,0,0,0.3) 0 2px 4px;
+}
+
+.envoyer:hover{
+	background-color: #004C6D;
+	color: white;
+}
+
+h3{
+	font-size: 15px;
+}
+
+.profil{
+	margin: 0 auto;
+	width: 232px;
+	padding-bottom: 11px;
+	padding-top: 12px;
+}

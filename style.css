@@ -1,0 +1,119 @@
+body{
+	background: linear-gradient(90deg, #0B0020 40%, #004C6D);
+}
+
+nav{
+	margin: 0 auto;
+	width: 1280px;
+	height: 100px;
+}
+
+img{
+	width: 60%;
+}
+
+.search{
+	margin-top: 30px;
+}
+
+input{
+	width: 104px;
+	height: 35px;
+}
+
+#recherche{
+	height: 35px;
+	width: 407px;
+}
+
+.container_nav{
+	width: 188px;
+	margin-left: -32px;
+	height: 130px;
+	position: fixed;
+	border-left: 1px solid white;
+}
+
+.container_nav ul{
+	list-style-type: none;
+}
+
+.container_nav a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.container_nav a:hover{
+	background-color: #004C6D;
+	color: white;
+}
+/* BOX OFFICE */
+
+.container_body{
+	margin: 0 auto;
+	width: 1280px;
+	height: 500px;
+}
+
+h1{
+	text-align: center;
+	font-family: arial, sans-serif;
+}
+
+.box_office{
+	width: 523px;
+	height: 580px;
+	margin: 0 auto;
+	box-shadow: rgba(0,0,0,0.3) 0 4px 2px;
+	background-color: white;
+	height: 630px;
+	overflow-y: scroll;
+	float: left;
+}
+
+.container_movies{
+	background: #004C6D;
+	height: 100px;
+	margin: 10px;
+}
+
+.espace{
+	width: 242px;
+	height: 196px;
+	background-color: #00AEEA;
+	box-shadow: rgba(0,0,0,0.3) 0 4px 2px;
+}
+
+.home_h2{
+	text-align: center;
+	color: white;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	padding-top: 55px;
+	text-transform: uppercase;
+}
+
+.home_abo, .home_films, .home_collations{
+	text-align: center;
+	color: white;
+	font-family: arial, sans-serif;
+	text-decoration: none;
+	padding-top: 75px;
+	text-transform: uppercase;
+}
+
+.block{
+	background-color: #00AEEA;
+	width: 515px;
+	height: 196px;
+	margin-top: 20px; 
+	box-shadow: rgba(0,0,0,0.3) 0 4px 2px;
+}
+
+.espace:hover, .block:hover{
+	background-color: #004C6D;
+	text-decoration: none;
+	color: white;
+}

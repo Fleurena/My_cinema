@@ -1,0 +1,99 @@
+body{
+	background: linear-gradient(90deg, #0B0020 40%, #004C6D);
+}
+
+nav{
+	margin: 0 auto;
+	width: 1280px;
+	height: 100px;
+}
+
+#logo{
+	width: 60%;
+}
+
+.search{
+	margin-top: 30px;
+}
+
+.recherches{
+	width: 104px;
+	height: 35px;
+}
+
+#recherche{
+	height: 35px;
+	width: 298px;
+}
+
+.container_nav{
+	width: 188px;
+	margin-left: -32px;
+	height: 130px;
+	position: fixed;
+	border-left: 1px solid white;
+}
+
+.container_nav ul{
+	list-style-type: none;
+}
+
+.container_nav a{
+	text-decoration: none;
+	color: white;
+	font-family: sans-serif;
+	text-transform: uppercase;
+}
+
+.container_nav a:hover{
+	background-color: #004C6D;
+	color: white;
+}
+/* BOX OFFICE */
+
+.container_body{
+	margin: 0 auto;
+	width: 1280px;
+	height: 500px;
+}
+h1{
+	text-align: center;
+	font-family: arial, sans-serif;
+	padding-top: 18px;
+	text-transform: uppercase;
+}
+
+h2{
+	margin-top: 79px;
+	color: white;
+	font-family: arial, sans-serif;
+	padding-bottom: 10px;
+}
+
+h3{
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+/* RECHERCHES */
+
+.container_formulaire{
+	width: 978px;
+	height: auto;
+	background-color: white;
+	box-shadow: rgba(0,0,0,0.3) 0 4px 2px;
+}
+
+.formulaire{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+select, option, input{
+	width: 150px;
+	height: 30px;
+}
+
+p{
+	font-family: sans-serif;
+}
